@@ -1,0 +1,22 @@
+{
+  "name": "fetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alan Fuller <alan@fullworks.net>",
+  "license": "GPL",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "cheerio": "^1.0.0-rc.5",
+    "fetch-timeout": "0.0.2",
+    "local-devices": "^3.1.0",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "simple-node-logger": "^18.12.24"
+  }
+}

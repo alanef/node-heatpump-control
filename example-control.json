@@ -1,0 +1,58 @@
+{ "general": {
+    "apikey": "sk_live_abc",
+    "otemp": 14,
+    "eprice": 13.0,
+    "salus": {
+      "username": "alan@xyz.com",
+      "password": "123"
+    },
+    "lan_range": "192.168.0.1-192.168.0.127"
+},
+"devices": [
+    {
+      "name": "Lounge",
+      "schedule": [
+        {
+           "on": "23:30",
+           "off": "07:30",
+           "temp": 14
+        },
+        {
+            "on": "07:31",
+           "off": "23:29",
+           "temp": 20
+        }
+      ]
+    },
+    {
+      "name": "Kitchen",
+      "schedule": [
+        {
+           "on": "23:30",
+           "off": "07:30",
+           "temp": 14
+        },
+        {
+            "on": "07:31",
+           "off": "23:29",
+           "temp": 20
+        }
+      ]
+    },
+    {
+      "name": "Bedroom",
+      "schedule": [
+        {
+           "on": "23:30",
+           "off": "07:30",
+           "temp": 14
+        },
+        {
+            "on": "07:31",
+           "off": "23:29",
+           "temp": 18
+        }
+      ]
+    }
+  ]
+}
